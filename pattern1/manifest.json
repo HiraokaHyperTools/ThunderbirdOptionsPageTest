@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "0.1",
+  "applications": {
+    "gecko": {
+      "id": "ThunderbirdOptionsPageTestCase1@digitaldolphins.jp",
+      "strict_max_version": "114.*",
+      "strict_min_version": "68.6.0"
+    }
+  },
+  "background": {
+    "page": "/webroot/background/index.html"
+  },
+  "browser_action": {
+    "default_title": "TestCase1"
+  },
+  "author": "kenjiuno",
+  "default_locale": "en-US",
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "/webroot/options/index.html"
+  }
+}
